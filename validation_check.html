@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8"/>
+    <title> validating </title>
+  </head>
+	
+	<body>
+		<h1> Validation check </h1>
+	   	<ul>
+			<li> <a href="http://www.smashbrand.com"> www.smashbrand.com </a> </li></ul>
+			<p> Smash brand did not pass the validation check and has 4 errors and 2 warnings we can ignore the 2 warnings since one is that we haven't finished html5 yet and the other because we are using charset="utf-8". First error is a hack for internet explorer and Chrome <!--( <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">)-->. The second error is because they didn't add an alt element. They just need to add an alt element to fix this. <!--<img src='assets/template/img/banners/wayfare-banner.png' /-->. The third and fourth are actually the same they are duplicate attribute tag they just need to change the name of one of the tags.</p><ul>
+			<li> <a href="http://gordoncressy.com">http://gordoncressy.com</a> </li></ul>
+			<p> Gordoncressy.com did not pass the validation check and has 7 errors. The first error is that it does not have an alt element added to his picture (add an alt element to fix this error). The second through the seventh have the same error that there is a <!--</p>!--> element with no starting point(to fix this delete the closed p element. </p><ul>
+			<li><a href="http://stroemme.net"> http://stroemme.net </a> </li></ul>
+			<p> http://stroemme.net did not pass the validation check and it has 16 errors. The first error is that <!--<body ontouchstart=""!--> was placed but the body hasn't been defined yet.(define body first). The second through the thirteenth error is that they didnt place a alt element with there .png images. The fourteenth error was that they didn't end a break element(fixing this by doing <!-- <br />-->). The fifteenth error was that they forgot to have quotes surrounding their attribute. And the sixteenth error is that the align was obsolete( recommend using css).</p><ul>
+			<li> <a href="http://www.brandvillage.com.au"> http://www.brandvillage.com.au </a> </li></ul>
+			<p> http://www.brandvillage.com.au Passed the validation check with 0 errors.( The only website I found that did).</p>		 
+	
+		</body>
+	</html>
