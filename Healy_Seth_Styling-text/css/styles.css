@@ -1,0 +1,34 @@
+body{
+  background-color:#BF5930 ; /*I used this color becuase it reminds me of a squirrel coat. I found it useing http://colorschemedesigner.com */
+}
+h1{
+
+  text-shadow: 2px 2px 2px #BC8F8F;
+
+  text-align:center;
+}
+ h2{
+ letter-spacing:3px;
+ font-weight: lighter;
+  font-style:italic;
+  Background-color:rgba(77, 40, 0, 1); /*I used this colors because its the closest to bark I liked. I found this on http://hslpicker.com/#f00 */
+}
+ ul{
+  color:red
+}
+a:link    {color:blue;
+}
+a:visited {color:green;
+}
+a:hover   {color:red;
+}
+a:active  {color:orange;
+}
+p{ 
+font-family: 'Cardo', serif;
+font-size:90%;
+text-align:justify;
+text-transform:capitalize;
+line-height:20px;
+font-weight:lighter;
+}
