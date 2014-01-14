@@ -1,0 +1,18 @@
+body{
+  background-color:#BF5930 ; /*I used this color becuase it reminds me of a squirrel coat. I found it useing http://colorschemedesigner.com */
+}
+h1{
+  text-align:center;
+}
+ h2{
+  Background-color:rgba(77, 40, 0, 1); /*I used this colors because its the closest to bark I liked. I found this on http://hslpicker.com/#f00 */
+}
+ ul{
+  color:red
+}
+a:link{color:rgb(0,255,255); /* I used this color to offset the other colors. I found this at http://hslpicker.com/#f00 */
+}
+a:hover {color:#FF00FF;
+}
+p{ 
+text-align:justify;

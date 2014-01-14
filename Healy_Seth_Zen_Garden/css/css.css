@@ -11,8 +11,9 @@
   h2, p { 
   	margin-left:20px;
 }
-     
-	a:visited {color:green;
-}  
+	a:link{color:black;
+}
 	a:hover {color:#FF00FF;
 }
+	a:visited {color:green;
+}  
