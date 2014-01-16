@@ -12,10 +12,11 @@ h1{
  font-weight: lighter;
   font-style:italic;
   Background-color:rgba(77, 40, 0, 1); /*I used this colors because its the closest to bark I liked. I found this on http://hslpicker.com/#f00 */
+} 
+   ul{
+ list-style:none;
 }
- ul{
-  color:red
-}
+
 a:link    {color:blue;
 }
 a:visited {color:green;
