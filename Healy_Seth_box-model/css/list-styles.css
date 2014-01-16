@@ -43,3 +43,10 @@ b{
   border-radius:40px;
   box-shadow: 0 0 1em gold;
 }
+li{
+display:inline;
+margin-top:0px;
+margin-bottom:0px;
+margin-right:auto;
+margin-left:auto;
+}
