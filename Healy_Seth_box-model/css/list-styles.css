@@ -1,6 +1,10 @@
 body{
   background-color:#BF5930 ; /*I used this color becuase it reminds me of a squirrel coat. I found it useing http://colorschemedesigner.com */
 }
+div{
+margin-left:auto;
+margin-right:auto;
+}
 h1{
 
   text-shadow: 2px 2px 2px #BC8F8F;
