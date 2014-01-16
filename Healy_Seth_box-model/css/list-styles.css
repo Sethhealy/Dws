@@ -12,10 +12,10 @@ h1{
   text-align:center;
 }
  h2{
- letter-spacing:3px;
- font-weight: lighter;
+  letter-spacing:3px;
+  font-weight: lighter;
   font-style:italic;
-  Background-color:rgba(77, 40, 0, 1); /*I used this colors because its the closest to bark I liked. I found this on http://hslpicker.com/#f00 */
+  background-color:rgba(77, 40, 0, 1); /*I used this colors because its the closest to bark I liked. I found this on http://hslpicker.com/#f00 */
 } 
    ul{
  list-style-type:none;
@@ -53,5 +53,5 @@ margin-top:0px;
 margin-bottom:0px;
 margin-right:auto;
 margin-left:auto;
-padding:7px;
+padding:10px;
 }
