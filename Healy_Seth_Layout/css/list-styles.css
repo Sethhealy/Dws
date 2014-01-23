@@ -1,7 +1,7 @@
 body{
-  background-color:#BF5930 ;
   min-width:40%;
-  
+  background:url("../images/plain.jpg") repeat-x scroll top, linear-gradient( to right bottom, #BF5940, orange);
+  background-color:#BF5940;
 }
 
   img.small{
@@ -17,19 +17,19 @@ body{
     
     
   h1{ text-shadow: 2px 2px 2px #BC8F8F;
-  text-align:center;
+      text-align:center;
+    background: url("../images/squirrel.png") no-repeat;
+ 
 }
  h2{
-   float:left;
+ 	margin-top:90px;
+ 	margin-bottom:-10px;
+    float:left;
     width:40%;
-    margin:2%;
     letter-spacing:3px;
     font-weight: lighter;
     font-style:italic;
  
-}
- ul{
- list-style:none;
 }
 a:link    {color:blue;
 }
@@ -40,12 +40,14 @@ a:hover   {color:red;
 a:active  {color:orange;
 }
 p{ 
+margin-top: 80px;
+margin-bottom:0px;
 font-family: 'Cardo', serif;
 font-size:1em;
 text-align:justify;
-text-transform:capitalize;
 line-height:1.250em;
 font-weight:lighter;
+text-indent:-2px; 
 }
 div.fixed{
   float:left;
@@ -56,8 +58,9 @@ div.fixed{
 div.both{
   float:left;
   width:25%;
-  margin:2%;
-  padding:2%;
+  margin:.5%;
+  padding:1%;
+  margin-top:-2px;
 }
 div.class{
 float:left;
@@ -65,8 +68,9 @@ width:25%;
 margin:2%;
 }
 div.footer{
-  width:25%;
   clear:both;
-  margin:2%;
+}
+div.footer p{
   text-align:center;
 }
+
