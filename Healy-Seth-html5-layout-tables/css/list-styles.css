@@ -29,7 +29,6 @@ body{
     letter-spacing:3px;
     font-weight: lighter;
     font-style:italic;
- 
 }
 a:link    {color:blue;
 }
@@ -49,7 +48,7 @@ line-height:1.250em;
 font-weight:lighter;
 text-indent:-2px; 
 }
-div.fixed{
+section{
   float:left;
   width:25%;
   margin:2%;
@@ -62,7 +61,7 @@ div.both{
   padding:1%;
   margin-top:-2px;
 }
-div.class{
+aside{
 float:left;
 width:25%;
 margin:2%;
@@ -77,4 +76,21 @@ div.scroll{
 	bottom: 20px;
 	position: fixed;
 	right: 20px; 
+}
+table{
+  text-transform:capitalize;
+   font-size:1em;
+  float:left;
+  width: 50%; 
+  height:20%;
+  border: 2px solid #000000;
+  padding:7px;
+   border-collapse:collapse;
+}
+
+tr:hover{
+  background-color:gray;
+}
+td{
+  text-align:center;
 }
