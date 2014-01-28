@@ -1,0 +1,144 @@
+body{
+  min-width:40%;
+  background:url("../images/plain.jpg") repeat-x scroll top, linear-gradient( to right bottom, #BF5940, orange);
+  background-color:#BF5940;
+}
+
+  img.small{
+    width:100%;
+    height:100%;
+  }
+  img.align-left{
+    float:left;
+    margin-right:10px;
+    box-shadow: 2px 2px 2px 2px;
+  }
+    
+    
+    
+  h1{ text-shadow: 2px 2px 2px #BC8F8F;
+      text-align:center;
+    background: url("../images/squirrel.png") no-repeat;
+ 
+}
+ h2{
+ 	margin-top:90px;
+ 	margin-bottom:-10px;
+    float:left;
+    width:40%;
+    letter-spacing:3px;
+    font-weight: lighter;
+    font-style:italic;
+    overflow:auto;
+}
+a:link    {color:blue;
+}
+a:visited {color:purple;
+}
+a:hover   {color:red;
+}
+a:active  {color:white;
+}
+p{ 
+margin-top: 80px;
+margin-bottom:0px;
+font-family: 'Cardo', serif;
+font-size:1em;
+text-align:justify;
+line-height:1.250em;
+font-weight:lighter;
+text-indent:-2px; 
+}
+section{
+  float:left;
+  width:25%;
+  margin:.2%;
+  padding:.2%;
+}
+div.both{
+  float:left;
+  width:25%;
+  margin:.5%;
+  padding:1%;
+  margin-top:-2px;
+}
+aside{
+float:left;
+width:25%;
+margin:2%;
+}
+footer{
+  clear:both;
+}
+footer p{
+  text-align:center;
+}
+div.scroll{
+	bottom: 20px;
+	position: fixed;
+	right: 20px; 
+}
+table{
+  text-transform:capitalize;
+  font-size:1em;
+  text-align:center;
+  float:left;
+  width: 50%; 
+  height:20%;
+  border: 2px solid #000000;
+  padding:7px; 
+   border-collapse:collapse;
+}
+
+tr:hover{
+  background-color:gray;
+}
+ul{
+list-style:none;
+padding:0px;
+}
+form{
+margin-right:30px;
+float:left;
+font-size:.90em;
+width:25%;
+padding:1.25em;
+display:block;
+
+}
+button{
+background-color:red;
+}
+li:hover{
+outline:2px solid orange;
+}
+textarea:focus{
+background-color:seagreen;
+
+}
+div.contact{
+text-align:left;
+margin:0px;
+padding:0px;
+width:200px;
+}
+#email{
+width:150px;
+}
+div.username{
+text-align:left;
+margin:inherit;
+
+}
+section{
+margin:2px;
+padding:2px;
+clear:both;
+}
+textarea{
+max-width:250px;
+}
+
+fieldset{
+width:200px;
+}
