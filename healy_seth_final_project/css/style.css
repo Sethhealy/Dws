@@ -1,0 +1,28 @@
+img{
+    width:15%;
+    height:20%;
+}
+img.align-left{
+    float:left;
+    margin-right:10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+a:link    {color:blue;
+}
+a:visited {color:green;
+}
+a:hover   {color:red;
+}
+a:active  {color:orange;
+}
+p{ 
+margin-top: 80px;
+margin-bottom:0px;
+font-family: 'Cardo', serif;
+font-size:1em;
+text-align:justify;
+line-height:1.250em;
+font-weight:lighter;
+text-indent:-2px; 
+}
