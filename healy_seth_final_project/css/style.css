@@ -11,6 +11,12 @@ h1{
 text-align:center;
 font-size:2em;
 }
+h2{
+font-size:1.5em;
+}
+h3{
+text-align:center;
+}
 nav{
 display:inline;
 list-style-type: none;
