@@ -1,6 +1,15 @@
+h1{
+text-align:center;
+font-size:2em;
+}
+nav{
+display:inline;
+list-style-type: none;
+padding-right: 20px;
+}
 img{
-    width:15%;
-    height:20%;
+    width:30%;
+    height:30%;
 }
 img.align-left{
     float:left;
@@ -17,8 +26,6 @@ a:hover   {color:red;
 a:active  {color:orange;
 }
 p{ 
-margin-top: 80px;
-margin-bottom:0px;
 font-family: 'Cardo', serif;
 font-size:1em;
 text-align:justify;
@@ -26,3 +33,66 @@ line-height:1.250em;
 font-weight:lighter;
 text-indent:-2px; 
 }
+aside{
+  float:left;
+  width:50%;
+  border: 2px solid;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+div.roast{
+  float:left;
+  width:50%;
+  border:2px solid;
+  clear:left;
+}
+div.gyros{
+float:left;
+width:40%;
+border:2px solid;
+}
+div.ribs{
+float:left;
+width:40%;
+border:2px solid;
+margin-left:auto;
+margin-right:auto;
+}
+table{
+clear:both;
+border-radius:8px;
+margin-left:auto;
+margin-right:auto;
+}
+div.username{
+text-align:center;
+}
+div.radio{
+text-align:center;
+}
+div.contact{
+text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

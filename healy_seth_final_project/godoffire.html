@@ -12,49 +12,39 @@
   </head>
 	
 	<body>
-		<header> Cafe Healy </header>
+		<header>
+		<h1> Cafe Healy </h1>
 	    <p>Welcome to the house of steaks and meats. Cafe Healy was quoted as <q> Best food for all prices</q> Our motto is <abbr title="unique greatness here">"ugh"</abbr>for all ages.</p>
 		<p>Our menu includes- All prices are marked <a href="#prices">Prices</a> </p>
+		</header>
 		<nav>
 		  <ul>
 			<li><a href="#steaks">Steaks</a></li>
-			<li> <a href="#roasts">Roasts</a> </li>
-			<li><a href="#gyros">Gyros</a> </li>
+		    <li><a href="#gyros">Gyros</a> </li>
+		    <li> <a href="#roasts">Roasts</a> </li>
 			<li> <a href="#ribs">Ribs</a> </li>
 			</ul>
 		</nav>
+		<aside>
 		<h2 id="steaks">Steaks</h2>
 		<figure>
 			<a href="images/steak.jpg"> 
 			<img src="images/steak.jpg" alt="steak" /></a>
 			<figcaption>Our mouth watering steak</figcaption>
 		</figure>
-		<p> All of our steaks are cooked to your favorite specifications. All steaks include mashed potatoes and french fries. </p>
+		<p> All of our steaks are cooked to your favorite specifications. <br />All steaks include mashed potatoes and french fries. </p>
 		<ul>
 			<li> Sirloin Steak </li>
-			<p> You have a choice between a 6 ounce or a 9 ounce sirloin cooked to perfection over a wood burning stove. </p>
+			<p> You have a choice between a 6 ounce or a 9 ounce sirloin cooked to <br /> perfection over a wood burning stove. </p>
 			<li> T-bone Steak </li>
-			<p> This slice of steak is seasoned with fine herbs and salts giving it a mouthwatering flavor. </p>
+			<p> This slice of steak is seasoned with fine herbs and salts giving it a <br />mouthwatering flavor. </p>
 			<li> Porterhouse Steak </li>
-			<p> This slice is slow cooked over hickory wood and slathered in fine homemade bbq sauce. </p>
+			<p> This slice is slow cooked over hickory wood and slathered in fine <br />homemade bbq sauce. </p>
 			<li> Healy Special </li>
-			<p> This dish is a house favorite. This is a compilation of all of our meats cooked to perfection overnight to give a melts in your mouth texture and a sweet and savory taste with our homemade sauces and seasonings. </p>
+			<p> This dish is a house favorite. This is a compilation of all of our meats cooked to perfection <br /> overnight to give a melts in your mouth texture and a sweet and savory taste with our <br />homemade sauces and seasonings. </p>
 		</ul>
-			
-		<h2 id="roasts"> Roasts </h2>
-		<figure>
-			<a href="images/roast.jpg"> 
-			<img src="images/roast.jpg" alt="roast" /></a>
-			<figcaption>Our decadent roast </figcaption>
-		</figure>
-		<p> All of our roasts are cooked to your favorite temperature and color. Includes french fries and salad</p>
-		<ul> 
-			<li> Rib Roast </li>
-			<p> Our rib roast has been prepared over a hickory wood fire giving it a savory hickory flavor. </p>
-			<li> Pork Rump Roast </li>
-			<p> Our Pig butt is slow cooked to give a mouthwatering flavor and texture. </p>
-		</ul>
-			
+		</aside>
+		<div class="gyros">
 		<h2 id="gyros"> Gyros </h2>
 		<figure>
 			<a href="images/gyros.jpg"> 
@@ -70,6 +60,24 @@
 			<li> Chicken </li>
 			<p> Our chicken gyro includes lettuce, tomato and peppers. </p>
 		</ul>
+		</div>
+		<div class="roast">
+		<h2 id="roasts"> Roasts </h2>
+		<figure>
+			<a href="images/roast.jpg"> 
+			<img src="images/roast.jpg" alt="roast" /></a>
+			<figcaption>Our decadent roast </figcaption>
+		</figure>
+		<p> All of our roasts are cooked to your favorite temperature and color. Includes french fries and salad</p>
+		<ul> 
+			<li> Rib Roast </li>
+			<p> Our rib roast has been prepared over a hickory wood fire giving it a savory hickory flavor. </p>
+			<li> Pork Rump Roast </li>
+			<p> Our Pig butt is slow cooked to give a mouthwatering flavor and texture. </p>
+		</ul>
+		</div>
+		
+		<div class="ribs">
 		<h2 id="ribs"> Ribs </h2>
 		<figure>
 			<a href="images/ribs.jpg"> 
@@ -83,5 +91,94 @@
 			<li> Baby Back Ribs </li>
 			<p> Our baby back ribs are the most tender ribs out there. </p>
 		</ul>
+		</div>
+		<table width="800" height="369" border="1" cellpadding="2px">
+  <tr>
+    <th colspan="5" scope="col">Price sheet</th>
+  </tr>
+  <tr>
+    <th width="236" scope="row">Steak</th>
+    <td width="146"><p align="center">Sirloin Steak: 6oz- $9.99</p>
+    <p align="center">9oz- $12.99</p></td>
+    <td width="53"><p align="center">T-bone Steak</p>
+      <p align="center">$15.99<br />
+    </p></td>
+    <td width="26"><p align="center">Porterhouse Steak</p>
+    <p align="center">$17.99</p></td>
+    <td width="26"><p align="center">Healy Special</p>
+    <p align="center">$22.99</p></td>
+  </tr>
+  <tr>
+    <th scope="row">Gyros</th>
+    <td><p align="center">Philly</p>
+    <p align="center">$15.99</p></td>
+    <td><p align="center">Roast Beef</p>
+    <p align="center">$12.99</p></td>
+    <td colspan="2"><p align="center">Chicken</p>
+    <p align="center">$12.99</p></td>
+  </tr>
+  <tr>
+    <th scope="row">Roasts</th>
+    <td><p>Rib Roast</p>
+    <p>$16.99</p></td>
+    <td colspan="3"><p>Pork Rump Roast</p>
+    <p>$19.99</p></td>
+  </tr>
+  <tr>
+    <th scope="row">Ribs</th>
+    <td><p>Dry rubbed Ribs</p>
+    <p>Full rack-$19.99</p>
+    <p>Half rack-$14.99</p></td>
+    <td colspan="3"><p>Baby Back Ribs</p>
+    <p>Full rack-$15.99</p>
+    <p>Half rack $9.99</p></td>
+  </tr>
+</table>
+<div class="username"> 
+       <form action="http://www.example.com/profile.php">  
+       <fieldset><legend>user information </legend>
+       <section>Did you enjoy your food??</section><select name="question">
+	   <option value="yes">Yes</option> <option value="No">No</option> <option value="Maybe">Maybe</option>
+ 	</select>  
+ 	   <br /> <br />
+ 	   
+ 	   <section> If you said yes please submit your username and password </section>
+ 
+  	
+  		 <label for="username"></label>Username<input type="username" name="username"
+  		 placeholder="username" id="username" required="required" />
+  		 <label for="password"></label>Password: <input type="password" name="password"
+  		  id="password" />
+   </fieldset>
+   </form>
+</div>
+<div class="radio">
+  <form action="http://www.example.com/login.php" method="post">
+  		<fieldset><legend>What type of dish was your favorite? </legend>
+  		<ul>
+  		   <li><input type="radio" name="food"
+  		    value="steak" id="steak" required="required" /><label for="steak">steak</label> </li>
+  		   <li> <input type="radio" name="food"
+  		     value="roast" id="roast" /><label for="roast">Roast</label> </li> 
+  		    <li> <input type="radio" name="food"
+  		    value="gyro" id="gyro" /><label for="gyro">Gyro</label> </li>
+  		    <li> <label for="ribs"></label> <input type="radio" name="food"
+  		    value="ribs" id="ribs" /><label for="ribs">Ribs</label> </li>
+  		</ul>        
+  		  <button> Submit </button>
+  		  </fieldset>
+  		  </form> 
+  		  </div>
+  	<form action="mailto:" method="post">
+  		 <fieldset><legend> contact information </legend>
+  		 <div class="contact">
+  		    <label for="email">email:</label> <input type="email" name="email"
+  		 	placeholder="please submit your email" id="email"  required="required" maxlength="30" />
+  		   <label for="input"></label> comment: <textarea placeholder="Why did you choose Cafe Healy"></textarea> 
+  		</div>
+  		<button> Submit </button>
+  		 </fieldset>
+  		</form>
+  		<Footer>
  	</body>
 	</html>
