@@ -1,3 +1,12 @@
+/*Main section*/
+
+body{
+background-color:#FF4940;
+background-image:url("../images/cows.jpg") repeat-x scroll top;
+}
+header{
+text-align:center;
+}
 h1{
 text-align:center;
 font-size:2em;
@@ -19,23 +28,30 @@ img.align-left{
 
 a:link    {color:blue;
 }
-a:visited {color:green;
+a:visited {color:purple;
 }
-a:hover   {color:red;
+a:hover   {color:black;
 }
-a:active  {color:orange;
+a:active  {color:yellow;
 }
+/*Text*/
 p{ 
 font-family: 'Cardo', serif;
 font-size:1em;
-text-align:justify;
+text-align:center;
 line-height:1.250em;
 font-weight:lighter;
 text-indent:-2px; 
 }
+ol{
+list-style-type:none;
+}
+
+/*floaters*/
 aside{
   float:left;
   width:50%;
+  padding:20px;
   border: 2px solid;
   text-align:center;
   margin-left:auto;
@@ -45,27 +61,41 @@ aside{
 div.roast{
   float:left;
   width:50%;
+  padding:20px;
+  text-align:center;
   border:2px solid;
   clear:left;
 }
 div.gyros{
 float:left;
 width:40%;
+padding:20px;
+text-align:center;
 border:2px solid;
 }
 div.ribs{
 float:left;
 width:40%;
+padding:20px;
+text-align:center;
 border:2px solid;
 margin-left:auto;
 margin-right:auto;
 }
+/*Table*/
 table{
+width:80%;
+border:2px solid;
+background: linear-gradient(to bottom, rgba(249,63,49,1) 0%,rgba(125,185,232,1) 100%); 
 clear:both;
 border-radius:8px;
 margin-left:auto;
 margin-right:auto;
+border-spacing:2px;
+font-size:1em;
+letter-spacing:1.2px;
 }
+/*forms*/
 div.username{
 text-align:center;
 }
@@ -75,15 +105,32 @@ text-align:center;
 div.contact{
 text-align:center;
 }
-
-
-
-
-
-
-
-
-
+ul{
+list-style-type:none;
+}
+textarea:focus{
+background-color:blue;
+}
+li:hover{
+outline:2px solid pink;
+}
+form{
+background-color:#BF3030;
+width:auto;
+border:2px dotted white;
+padding:2px;
+margin:1px;
+box-shadow: 10px 10px 5px #fff;
+}
+div.scroll{
+bottom: 10px;
+position: fixed;
+right: 20px;
+}
+button{
+margin-left:auto;
+margin-right:auto;
+}
 
 
 
