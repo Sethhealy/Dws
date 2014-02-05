@@ -1,0 +1,60 @@
+h1{
+margin-left:20px;
+}
+h2{
+margin-left:20px;
+}
+p{
+float:left;
+width:60%;
+margin-left:20px;
+margin-right:50px;
+}
+img{
+width:30%;
+float:left;
+}
+div.scroll{
+bottom: 10px;
+position: fixed;
+right: 20px;
+}
+td{
+padding:20px;
+text-align:left;
+}
+td:hover{
+outline:2px solid blue;
+}
+h3{
+clear:both;
+}
+table{
+width:100%;
+background-color:white;
+text-align:left;
+}
+th{
+padding:0px 20px 0px 20px;
+background-color:grey;
+color:white;
+}
+div.bar{
+background-color:grey;
+}
+
+a:link    {color:#0C5AA6;
+}
+a:visited {color:purple;
+}
+a:hover   {color:black;
+}
+a:active  {color:yellow;
+}
+tr:nth-child(2n+1){
+background-color: #eee;
+}
+
+
+
+
