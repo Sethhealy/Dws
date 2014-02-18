@@ -55,6 +55,7 @@ tr:nth-child(2n+1){
 background-color: #eee;
 }
 figcaption{
+width:100%;
 margin-left:720px;
 }
 
